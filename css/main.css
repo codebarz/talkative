@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.body {
+    background: #f5f5f5;
+}
+.header_area {
+    width: 100%;
+    height: 40px;
+}
+.header {
+    width: 95%;
+    height: 40px;
+    background: url("../img/line_horz1.gif") bottom repeat-x;
+    margin: auto;
+}
+.form-area {
+    margin-top: 100px;
+    background: #ffffff;
+    width: 400px;
+    height: auto;
+    padding: 20px 0;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    -moz-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 5px;
+}
+.form-area input[type="text"],
+.form-area input[type="password"],
+.form-area input[type="email"] {
+    outline: none;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    margin: 10px auto;
+}
+.form-area input[type="text"]:focus, .form-area input[type="password"]:focus, .form-area input[type="email"]:focus {
+    -webkit-box-shadow: 0 0 4px #2aa6ae;
+    -moz-box-shadow: 0 0 4px #2aa6ae;
+    box-shadow: 0 0 4px #2aa6ae;
+}
+.form-area input[type="submit"] {
+    padding: 10px;
+    color: #fff;
+    background: #2aa6ae;
+    width: 300px;
+    margin: 0 auto 10px auto;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
+.form-area input[type="submit"]:hover {
+    background: #0aa7b1;
+    transition: all linear 0.2s;
+    width: 280px;
+}
+.form-area .errorMsg {
+    width: 300px;
+    padding: 10px;
+    color: #dd0d0d;
+    border-radius: 3px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    font-family: cursive;
+}
+.form-area a {
+    color: #111;
+    text-decoration: none;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.form-area a:last-child {
+    color: #2aa6ae;
+    text-decoration: none;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.form-area a:hover {
+    font-size: 14px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+#reg_form {
+    display: none;
+}
